@@ -4,6 +4,7 @@ gem 'haml'
 
 gem 'parliament-opensearch'
 gem 'sinatra', '~> 1.4.8'
+gem 'puma'
 
 group :development, :test do
   # Use Rubocop for static code quality analysis
