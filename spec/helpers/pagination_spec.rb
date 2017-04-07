@@ -2,7 +2,7 @@ require 'spec_helper'
 
 RSpec.describe PaginationHelper do
   subject do
-    Class.new { include PaginationHelper  #set instance vars here }
+    Class.new { include PaginationHelper }  #set instance vars here }
   end
 
   context '#current_page' do
